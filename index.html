@@ -14,29 +14,26 @@
   <body>
     <div class="weather-app">
       <header>
-        <form>
-          <input type="search" placeholder="type a city..." required />
-          <input type="submit" value="🔍" />
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="type a city..."
+            required
+            class="search-form-input"
+          />
+          <input type="submit" value="🔍" class="search-form-button" />
         </form>
       </header>
       <main>
-        <div>
-          <h1>
-            Paris
-            <br />
-            🌤️
-            <br />
-            12°C
-          </h1>
+        <div class="weather-app-data">
+          <h1>Paris</h1>
         </div>
-        <div>
-          <p>
-            Tuesday 14:40, scattered clouds
-            <br />
-            Humidity: 40%, Wind: 3.13km/h
-          </p>
-        </div>
-      </main>
+        <div class="emoji">🌤️</div>
+
+        <div class="weather-degree">12°C</div>
+
+        <div class="weather-app-details">Tuesday <strong>14:40</strong>, scattered clouds.   Humidity: <strong>40%</strong>, Wind: <strong>3.13km/h</strong></div>
+     
       <footer>
         Coded by<a href="https://github.com/VickySifundza"> Vicky Sifundza</a>
         and website hosted on
