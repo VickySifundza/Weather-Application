@@ -51,10 +51,12 @@ header {
   font-weight: bold;
   line-height: 70px;
 }
-.weather-app-details {
+
+.weather-app-details,
+.weather-humidity {
   font-size: small;
 }
-.weather-app-details strong {
+strong {
   color: #f65282;
 }
 footer {
